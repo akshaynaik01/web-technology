@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 6: HTML5 APIs and Advanced Features</title>
+    <style>
+        canvas { border: 1px solid black; }
+        .result { margin: 10px 0; padding: 10px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>HTML5 APIs and Advanced Features Challenge</h1>
+    
+    <!-- Challenge 1: Canvas API -->
+    <h2>Challenge 1: Canvas Drawing</h2>
+    <p><strong>Task:</strong> Create interactive drawings using HTML5 Canvas</p>
+    
+    <p>Requirements:</p>
+    <ol>
+        <li>Add a &lt;canvas&gt; element with width="500" height="300"</li>
+        <li>Use JavaScript to draw:
+            <ul>
+                <li>A rectangle (strokeRect or fillRect)</li>
+                <li>A circle (arc method)</li>
+                <li>A line (moveTo and lineTo)</li>
+                <li>Text (fillText method)</li>
+            </ul>
+        </li>
+        <li>Add different colors and styles</li>
+        <li>Implement a simple drawing feature (optional)</li>
+    </ol>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your canvas and script here -->
+    
+    <hr>
+    
+    <!-- Challenge 2: Geolocation API -->
+    <h2>Challenge 2: Geolocation</h2>
+    <p><strong>Task:</strong> Get user's current location</p>
+    
+    <p>Requirements:</p>
+    <ul>
+        <li>Add a button to get location</li>
+        <li>Use navigator.geolocation.getCurrentPosition()</li>
+        <li>Display latitude and longitude in a div</li>
+        <li>Handle errors (permission denied, position unavailable)</li>
+        <li>Display location accuracy if available</li>
+    </ul>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your geolocation implementation here -->
+    
+    <hr>
+    
+    <!-- Challenge 3: Local Storage -->
+    <h2>Challenge 3: Local Storage</h2>
+    <p><strong>Task:</strong> Create a simple note-taking app with localStorage</p>
+    
+    <p>Requirements:</p>
+    <ul>
+        <li>Create a textarea for writing notes</li>
+        <li>Add "Save" and "Load" buttons</li>
+        <li>Use localStorage.setItem() to save note</li>
+        <li>Use localStorage.getItem() to load note</li>
+        <li>Add a "Clear" button to remove data</li>
+        <li>Show success/error messages</li>
+    </ul>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your local storage implementation here -->
+    
+    <hr>
+    
+    <!-- Challenge 4: Drag and Drop -->
+    <h2>Challenge 4: Drag and Drop</h2>
+    <p><strong>Task:</strong> Implement drag and drop functionality</p>
+    
+    <p>Requirements:</p>
+    <ol>
+        <li>Create draggable elements with draggable="true"</li>
+        <li>Add ondragstart event handler</li>
+        <li>Create a drop zone with ondrop and ondragover handlers</li>
+        <li>Use dataTransfer to pass data</li>
+        <li>Prevent default behavior on dragover</li>
+        <li>Style elements during drag (optional)</li>
+    </ol>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your drag and drop implementation here -->
+    
+    <hr>
+    
+    <!-- Challenge 5: Web Storage -->
+    <h2>Challenge 5: Session Storage vs Local Storage</h2>
+    <p><strong>Task:</strong> Demonstrate difference between session and local storage</p>
+    
+    <p>Requirements:</p>
+    <ul>
+        <li>Create two input fields and buttons</li>
+        <li>Save data to sessionStorage and localStorage separately</li>
+        <li>Display both stored values</li>
+        <li>Explain the difference in comments</li>
+        <li>Test by closing and reopening the tab</li>
+    </ul>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your web storage comparison here -->
+    
+    <hr>
+    
+    <!-- Bonus Challenge -->
+    <h2>Bonus: Web Workers</h2>
+    <p><strong>Task:</strong> Use Web Workers for background processing</p>
+    
+    <p>Requirements:</p>
+    <ul>
+        <li>Create a simple calculation task (e.g., count to 1 million)</li>
+        <li>Implement it with and without Web Workers</li>
+        <li>Compare performance and UI responsiveness</li>
+        <li>Display results in separate divs</li>
+    </ul>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your web workers implementation here -->
+    
+    <hr>
+    
+    <!-- Additional Challenge -->
+    <h2>Additional: Data Attributes</h2>
+    <p><strong>Task:</strong> Use HTML5 data attributes</p>
+    
+    <p>Requirements:</p>
+    <ul>
+        <li>Create elements with data-* attributes (data-id, data-category, etc.)</li>
+        <li>Access them using JavaScript (element.dataset)</li>
+        <li>Filter or sort elements based on data attributes</li>
+        <li>Display results dynamically</li>
+    </ul>
+    
+    <h3>Your Solution:</h3>
+    <!-- Add your data attributes implementation here -->
+
+    <script>
+        // Add your JavaScript code here
+        // Examples:
+        
+        // 1. Canvas API example
+        // const canvas = document.getElementById('myCanvas');
+        // const ctx = canvas.getContext('2d');
+        
+        // 2. Geolocation example
+        // navigator.geolocation.getCurrentPosition(success, error);
+        
+        // 3. Local Storage example
+        // localStorage.setItem('key', 'value');
+        // const value = localStorage.getItem('key');
+    </script>
+
+</body>
+</html>
